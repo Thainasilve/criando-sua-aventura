@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Ao examinar um livro antigo em uma biblioteca abandonada, você encontra um mapa oculto com instruções para localizar uma misteriosa cidade perdida. Determinado, você decide seguir as pistas.</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Em sua primeira parada no Rio de Janeiro, o mapa sugere que uma pista está escondida no Parque das Cascatas. Você decide:</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as trilhas do parque</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você segue as indicações até a cidade de Recife, onde o mapa menciona uma pista importante. Por onde começar?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as ruas do Recife Antigo</button>
+            <button class="btn-proximo" data-proximo="6">Visitar a Praça</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas trilhas do Parque das Cascatas, você encontra um pergaminho escondido em uma pequena caverna, indicando que o próximo destino é o Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="Imagem de retorno para casa">
+            <p>Sentindo que a jornada pode ser perigosa, você decide desistir e voltar para casa. Mas a memória do mapa continua assombrando seus pensamentos.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Explorando as ruas do Recife Antigo, você encontra uma loja de antiguidades onde o dono compartilha informações sobre o Amazonas e a cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Na Praça, você encontra uma estátua antiga com um mapa secreto esculpido nela, indicando o caminho para o Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, você encontra uma cabana abandonada perto de um rio. Uma inscrição na cabana aponta para dois caminhos possíveis.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda o leva a uma entrada escondida entre as árvores, onde você finalmente encontra a cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma cachoeira. Apesar da vista deslumbrante, não há saída. Você decide voltar e tentar o outro caminho.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar e seguir pelo rio à esquerda</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Imagem da cidade perdida">
+            <p>Ao explorar a cidade perdida, você descobre artefatos e segredos que mudam sua visão do mundo. Você promete manter o local em segredo para protegê-lo de exploradores.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
